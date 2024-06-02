@@ -1,0 +1,32 @@
+name: voluntify_beta
+description: Flutter project
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cloud_firestore: ^3.1.5
+  firebase_auth: ^3.11.2
+  firebase_storage: ^10.3.0
+  google_sign_in: ^5.1.1
+  shared_preferences: ^2.0.10
+  equatable: ^2.0.3
+  intl: ^0.17.0
+  fluttertoast: ^8.0.8
+  image_picker: ^0.8.4+4
+  provider: ^6.0.1
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
